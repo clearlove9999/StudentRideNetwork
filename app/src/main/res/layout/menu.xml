@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    >
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_dark"
+        android:textSize="30sp"
+        android:text="X"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:background="@android:color/background_dark"
+        android:text="  Setting"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/background_dark"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/IV_style"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            tools:srcCompat="@tools:sample/avatars"
+
+            />
+        <Button
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:background="@android:color/background_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Choose your model"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark"
+        android:textStyle="bold"
+        android:text="Driver Mode" />
+    <Button
+        android:id="@+id/passenger"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark"
+        android:textStyle="bold"
+        android:text="Passenger Mode" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        >
+        <Button
+            android:id="@+id/trips"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@android:color/background_light"
+            android:text="My Trips" />
+        <Button
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@android:color/background_light"
+            android:text="messages" />
+        <Button
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@android:color/background_light"
+            android:text="Help" />
+        <Button
+            android:id="@+id/safety"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@android:color/background_light"
+            android:text="Safety" />
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@android:color/background_light"
+            android:text="Setting" />
+    </LinearLayout>
+</LinearLayout>
